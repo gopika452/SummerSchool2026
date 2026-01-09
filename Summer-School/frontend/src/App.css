@@ -1,0 +1,13 @@
+html{
+  scroll-behavior: smooth;
+}
+.navbar-nav {
+  flex-direction: row; /* Ensures nav items are in a row */
+}
+
+.nav-item {
+  margin-right: 20px; /* Adds spacing between nav items */
+}
+.dropdown-menu {
+  position: absolute; /* Ensures dropdown is positioned relative to the nav item */
+}
